@@ -8,4 +8,4 @@ Also includes the v1.4 upgrades and features:
 ## ChoiceTitles
 
 Explained here:
-![Image of the card moe](https://github.com/clifford-fra/QuickChoiceFork/quickchoice.png)
+![Image of the card mode elements](https://raw.githubusercontent.com/clifford-fra/QuickChoiceFork/master/quickchoice.png)
