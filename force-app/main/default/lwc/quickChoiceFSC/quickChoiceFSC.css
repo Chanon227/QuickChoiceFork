@@ -1,0 +1,31 @@
+/* force top margin because the standard component 
+   skips it for the first item in the list */
+.slds-visual-picker_vertical {
+    margin-left: 0;
+    margin-top: 1rem;
+}
+
+.slds-visual-picker input:checked ~ label .slds-visual-picker__text {
+    border: 1px solid rgb(255, 187, 0) !important;
+    box-shadow: 0 0 0 1px rgb(255, 187, 0) inset !important;
+}
+
+.slds-visual-picker input:not(:disabled) ~ label:hover .slds-visual-picker__figure {
+    border: 1px solid rgb(255, 187, 0) !important;
+    box-shadow: 0 0 0 1px rgb(255, 187, 0) inset !important;
+}
+
+.slds-visual-picker input:checked ~ label .slds-visual-picker__text::after {
+    border-right-color: rgb(255, 187, 0) !important;
+    border-top-color: rgb(255, 187, 0) !important;
+}
+
+.slds-visual-picker:active .slds-visual-picker__figure {
+    border:1px solid rgb(255, 187, 0) !important;
+    box-shadow:0 0 0 1px rgb(255, 187, 0) inset !important;
+}
+
+.slds-visual-picker input:focus~label .slds-visual-picker__figure {
+    border:1px solid rgb(255, 187, 0) !important;
+    box-shadow:0 0 0 1px rgb(255, 187, 0) inset !important;
+}
